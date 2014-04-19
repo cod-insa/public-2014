@@ -16,7 +16,7 @@ class EmptyAI:
             self.game.update_sim_frame()
             
             for plane in self.game.get_my_planes():
-                game.send_command(WaitCommand(p))
+                self.game.send_command(WaitCommand(plane))
 
     def end(self):
         pass

@@ -54,7 +54,7 @@ class Plane(MovingEntity):
             print "Plane : Null_reference for base"
             #sys.exit(0)
         base.add_plane(self)
-        if base.get_owned(id) != self.get_owner_id():
+        if base.get_owner_id() != self.get_owner_id():
             raise AssertionError("Plane assginement error")
         
     def unassign(self):

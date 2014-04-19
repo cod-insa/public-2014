@@ -7,3 +7,9 @@ class ProgressAxis(Entity):
         self.base2 = base2
         self.length = base1.get_position().distanceTo(base2.get_position())
         
+    def set_ration(self, ra1):
+        self.ratio1 = ra1
+        
+    def set_ration(self, ra2):
+        self.ratio1 = ra2
+        
