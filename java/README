@@ -1,1 +1,3 @@
 Pour faire fonctionne l'IA, vous devez faire dépendre le projet contenant ConsoleAI.java de proxy.jar en allant sur les propriétés du projet.
+
+Pour que tout fonctionne, il faut que vous linkiez toutes les libs qui se trouvent dans le dossier lib.
