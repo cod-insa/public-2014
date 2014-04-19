@@ -4,10 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-import model.AbstractBase;
-import model.Base;
-import model.Coord;
-import model.Plane;
+import model.*;
 import model.Plane.BasicView;
 import command.AttackCommand;
 import command.Command;
@@ -138,6 +135,10 @@ public class ConsoleAI extends AbstractAI
 			catch(IllegalArgumentException e) {
 				System.out.println("Command failed: "+e);
 				System.err.println("Command failed: "+e);
+			}
+			catch(OutOfSyncException e) {
+				System.out.println("Out of sync: "+e);
+				System.err.println("Out of sync: "+e);
 			}
 			
 			for (Command c: coms)
