@@ -1,0 +1,1 @@
+Pour faire fonctionne l'IA, vous devez faire dépendre le projet contenant ConsoleAI.java de proxy.jar en allant sur les propriétés du projet.
