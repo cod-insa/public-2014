@@ -1,1 +1,16 @@
 You will find here every update of what you need for the contest !
+
+-------------------- 16:00 --------------------------
+
+Pour lancer le serveur, vous devez lancer la commande suivante :
+
+java -jar server.jar mapName time playerName1 port1 playerName2 port2 ...
+java -jar server.jar france -42 player1 9090
+
+Puis cliquez sur "Start without waiting"
+
+(Un temps à -42 lance le serveur en mode debug, vous pourrez donc voir à peu près ce que donne tout ça ! :) )
+
+
+Carte prête à l'emploi :
+france
