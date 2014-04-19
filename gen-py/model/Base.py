@@ -26,4 +26,4 @@ class Base(AbstractBase):
         self.militaryGarrison = nb
         
     def set_fuel(self, nb):
-        self.fuelInStock = fuel
+        self.fuelInStock = nb
